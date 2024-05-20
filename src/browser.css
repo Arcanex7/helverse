@@ -1,0 +1,40 @@
+.main-brw{
+    background-color: rgb(1, 16, 61);
+    margin-top: 10px;
+    padding: 20px;
+    margin-bottom: 11%;
+    margin-left: 12%;
+    display: flex;
+    width: 75% ;
+    border-radius: 12px;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+    justify-content: center;
+
+}
+.brw-p{
+    text-align: center;
+    padding:25px ;
+    margin: 10px;
+    transition: all 0.5s ease-in-out;
+
+    font-size: 1.0rem;
+
+}
+.head-brw{
+    font-size: 25px;
+}
+.img-logo{
+    padding: 10px;
+    margin: 10px;
+    transition: all 0.5s ease-in-out;
+
+  
+}
+.main-brw:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(14, 128, 243, 0.2), 0 6px 6px rgba(17, 200, 255, 0.2);
+  }
+  

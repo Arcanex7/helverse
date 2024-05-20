@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Sora:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    margin-top: 55px;
+    display: flex;
+    background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+    justify-content: space-between;
+    align-content: center;
+    height: 50px;
+    padding: 10px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    color: #cecece;
+}
+
+.cpy{
+    margin-left: 60px ;
+}
+ol {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.lst{
+    margin-right: 10%;
+}
+
+ol li {
+    margin: 0 10px;
+}
+ol li a {
+    text-decoration: none;
+    color: #b5b5b5;
+    transition: all 0.25s ease-in ;
+}
+
+ol li a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
