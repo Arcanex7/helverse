@@ -22,3 +22,16 @@ body {
   pointer-events: none;
   z-index: -1000;
 }
+@media (max-width: 768px) {
+  /* Adjustments for screens up to 768px wide */
+  body {
+      margin-top: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Adjustments for screens up to 576px wide */
+  body {
+      margin-top: 10px;
+  }
+}
